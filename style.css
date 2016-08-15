@@ -1,0 +1,85 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family: Arial;
+	background-image: url(background.jpg);
+	background-position: center;
+	background-repeat: repeat;
+}
+
+h1{
+	margin:auto;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.img{
+	width: 1000px;
+	height: 400px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background: rgba(0,0,0,0.7);
+	color: white;
+	margin-top: 90px;
+	padding-top: 70px;
+}
+
+.poem{
+	padding-top: 30px;
+
+}
+
+#box1, #box2, #box3, #box4, #box1:hover, #box2:hover, #box3:hover, #box4:hover{
+	
+	width: 1000px;
+	height: 501px;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background width: 1000px,; 
+	background height: 501px,; 
+	margin-left: auto;
+	margin-right: auto;
+	background: white;
+	margin-top: 100px;
+}
+
+#box1{
+background-image:url('16.png');
+}
+
+ #box2{
+background-image:url('20.png');
+
+ }
+
+ #box3{
+background-image:url('27.png');
+ }
+
+ #box4{
+background-image:url('32.png');
+ }
+
+
+#box1:hover{
+	cursor:pointer; 
+	background-image:url('1.gif');
+}
+
+#box2:hover{
+	cursor:pointer; 
+	background-image:url('2.gif');
+
+}
+
+#box3:hover{
+	cursor:pointer; 
+	background-image:url('3.gif');
+}
+
+#box4:hover{
+	cursor:pointer; 
+	 background-image:url('bg2.jpg');
+
+}
